@@ -1,0 +1,17 @@
+{
+  "name": "auracalc-app",
+  "version": "1.0.0",
+  "description": "AuraCalc Modern Scientific Calculator",
+  "main": "index.html",
+  "scripts": {
+    "build": "node build.js",
+    "start": "python server.py"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/android": "^6.2.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.0"
+  }
+}
